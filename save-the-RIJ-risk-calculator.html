@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Save the RIJ? - Central Line Risk Calculator</title>
+  <style>
+    body { font-family: sans-serif; max-width: 700px; margin: auto; padding: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    th { background-color: #f2f2f2; }
+    input { width: 80px; }
+    .result { margin-top: 20px; padding: 10px; border: 1px solid #ccc; }
+    button {
+      display: block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background-color: red;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <h1>Should I Save the RIJ for Hemodialysis?</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Complication Type</th>
+        <th>LEFT IJ (%)</th>
+        <th>RIGHT IJ (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CVC complication rate</td>
+        <td><input type="number" step="0.1" id="cvcLeft" value="2.0"></td>
+        <td><input type="number" step="0.1" id="cvcRight" value="1.0"></td>
+      </tr>
+      <tr>
+        <td>HD line complication rate</td>
+        <td><input type="number" step="0.1" id="hdLeft" value="6.0"></td>
+        <td><input type="number" step="0.1" id="hdRight" value="2.0"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <label style="margin-top: 20px; display: block; font-weight: bold;">Probability of an ICU patient needing CRRT (%):
+    <input type="number" step="0.1" id="hdProb" value="20.0">
+  </label>
+
+  <button onclick="calculateRisk()">Calculate</button>
+
+  <div class="result" id="output"></div>
+
+  <script>
+    function calculateRisk() {
+      const cvcLeft = parseFloat(document.getElementById('cvcLeft').value) / 100;
+      const cvcRight = parseFloat(document.getElementById('cvcRight').value) / 100;
+      const hdLeft = parseFloat(document.getElementById('hdLeft').value) / 100;
+      const hdRight = parseFloat(document.getElementById('hdRight').value) / 100;
+      const hdProb = parseFloat(document.getElementById('hdProb').value) / 100;
+
+      const useRIJ = cvcRight + hdProb * hdLeft;
+      const saveRIJ = cvcLeft + hdProb * hdRight;
+
+      let recommendation = '';
+      if (useRIJ < saveRIJ) {
+        recommendation = 'Use the RIJ now';
+      } else if (saveRIJ < useRIJ) {
+        recommendation = 'Save the RIJ for dialysis';
+      } else {
+        recommendation = 'Both strategies have equal risk';
+      }
+
+      document.getElementById('output').innerHTML = `
+        <h3>Results</h3>
+        <p>Total complications per 100 patients if you <strong>use the RIJ</strong> now: <strong>${(useRIJ * 100).toFixed(1)}</strong></p>
+        <p>Total complications per 100 patients if you <strong>save the RIJ</strong> for HD: <strong>${(saveRIJ * 100).toFixed(1)}</strong></p>
+        <p><strong>Recommendation:</strong> ${recommendation}</p>
+      `;
+    }
+  </script>
+</body>
+</html>
+
