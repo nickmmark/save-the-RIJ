@@ -37,8 +37,8 @@ Based on the Three Sites Trial, I assume the rate of IJ procedural complications
 
 
 ### References
-[1] Gharaibeh _et al_, [Impact of Initial Jugular Vein Insertion Site Selection for Central Venous Catheter Placement on Hemodialysis Catheter Complications](https://pubmed.ncbi.nlm.nih.gov/39755012/), _Journal of Critical Care_ 2025
-[2] Parienta _et al_, [Intravascular Complications of Central Venous Catheterization by Insertion Site](https://www.nejm.org/doi/full/10.1056/NEJMoa1500964), _NEJM_ 2015
-[3] Sulek _et al_, [A randomized study of left versus right internal jugular vein cannulation in adults](https://pubmed.ncbi.nlm.nih.gov/10818329/), _Journal of Clinical Anesthesia_ 2000
-[4] Oliveros _et al_, [](https://jintensivecare.biomedcentral.com/articles/10.1186/s40560-020-00481-0), _Journal of Intensive Care_ 2020
-[3] Mark & Askin, _Critical Care Time Podcast_, 2025
+* Gharaibeh _et al_, [Impact of Initial Jugular Vein Insertion Site Selection for Central Venous Catheter Placement on Hemodialysis Catheter Complications](https://pubmed.ncbi.nlm.nih.gov/39755012/), _Journal of Critical Care_ 2025
+* Parienta _et al_, [Intravascular Complications of Central Venous Catheterization by Insertion Site](https://www.nejm.org/doi/full/10.1056/NEJMoa1500964), _NEJM_ 2015
+* Sulek _et al_, [A randomized study of left versus right internal jugular vein cannulation in adults](https://pubmed.ncbi.nlm.nih.gov/10818329/), _Journal of Clinical Anesthesia_ 2000
+* Oliveros _et al_, [](https://jintensivecare.biomedcentral.com/articles/10.1186/s40560-020-00481-0), _Journal of Intensive Care_ 2020
+* Mark & Askin, _Critical Care Time Podcast_, 2025
