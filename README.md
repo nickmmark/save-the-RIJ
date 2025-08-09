@@ -34,4 +34,5 @@ Results are expressed as complications per 100 patients and a recommendation is 
 
 
 ### References
-[1]
+[1] Gharaibeh et al, [Impact of Initial Jugular Vein Insertion Site Selection for Central Venous Catheter Placement on Hemodialysis Catheter Complications](https://pubmed.ncbi.nlm.nih.gov/39755012/), Journal of Critical Care, 2025
+[2] Critical Care Time Podcast, 2025
