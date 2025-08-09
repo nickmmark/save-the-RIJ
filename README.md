@@ -31,8 +31,14 @@ Risk = (CVC complication rate for LIJ) + (Probability of CRRT × HD line complic
 Results are expressed as complications per 100 patients and a recommendation is given based on which strategy yields the overall lower risk.
 
 
+### Baseline Assumptions
+Based on the Three Sites Trial, I assume the rate of IJ procedural complications to be about 1-2%. Based on Sulek _et al_ RCT comparing right vs left sided CVC placement, I assume the risk is double on the left compared to the right (in their study, performed without ultrasound guidance the risk was 10% and 20% respectively). Based on Oliveros _et al_, I assume that the risk of an  patient admitted to the ICU requiring dialysis is 10%.
+
 
 
 ### References
-[1] Gharaibeh et al, [Impact of Initial Jugular Vein Insertion Site Selection for Central Venous Catheter Placement on Hemodialysis Catheter Complications](https://pubmed.ncbi.nlm.nih.gov/39755012/), Journal of Critical Care, 2025
-[2] Critical Care Time Podcast, 2025
+[1] Gharaibeh _et al_, [Impact of Initial Jugular Vein Insertion Site Selection for Central Venous Catheter Placement on Hemodialysis Catheter Complications](https://pubmed.ncbi.nlm.nih.gov/39755012/), _Journal of Critical Care_ 2025
+[2] Parienta _et al_, [Intravascular Complications of Central Venous Catheterization by Insertion Site](https://www.nejm.org/doi/full/10.1056/NEJMoa1500964), _NEJM_ 2015
+[3] Sulek _et al_, [A randomized study of left versus right internal jugular vein cannulation in adults](https://pubmed.ncbi.nlm.nih.gov/10818329/), _Journal of Clinical Anesthesia_ 2000
+[4] Oliveros _et al_, [](https://jintensivecare.biomedcentral.com/articles/10.1186/s40560-020-00481-0), _Journal of Intensive Care_ 2020
+[3] Mark & Askin, _Critical Care Time Podcast_, 2025
