@@ -2,7 +2,7 @@
 should intensivists routinely place central lines in the right internal jugular or save that site for potential future lines?
 
 ### Clincial context
-Some intensivists and institutions strongly believe that the right internal jugular vein should be preserved in case a patient requires a hemodialysis line in the future. The "`Save the RIJ`" dogma is based on the premise that it is technically more difficult to place hemodialysis lines in the LIJ (or femoral) vein. Proponents argue that by preserving the RIJ, the "**cumulative procedural risk**"[1] can be lowered.
+Some intensivists and institutions strongly believe that the right internal jugular vein should be preserved in case a patient requires a hemodialysis line in the future. The "`Save the RIJ`" dogma is based on the premise that it is technically more difficult to place hemodialysis lines in the LIJ (or femoral) vein. [Proponents argue](https://pubmed.ncbi.nlm.nih.gov/39755012/) that by preserving the RIJ, the "**cumulative procedural risk**" can be lowered.
 
 I disagree.
 
@@ -20,21 +20,21 @@ This interactive web calculator helps clinicians decide whether to place a centr
 
 Users can enter custom complication rates for CVC and HD line placement by site, as well as the estimated probability of requiring continuous renal replacement therapy (CRRT). The app compares two strategies:
 
-Use the RIJ now:
+`Use the RIJ` now strategy:
 ```
 Risk = (CVC complication rate for RIJ) + (Probability of CRRT × HD line complication rate for LIJ)
 ```
 
-Save the RIJ for HD:
+`Save the RIJ` for HD strategy:
 ```
 Risk = (CVC complication rate for LIJ) + (Probability of CRRT × HD line complication rate for RIJ)
 ```
 
-Results are expressed as complications per 100 patients and a recommendation is given based on which strategy yields the overall lower risk.
+Results are expressed as **complications per 100 patients** and a recommendation is given based on which strategy yields the overall lower risk.
 
 
 ### Baseline Assumptions
-Based on the Three Sites Trial, I assume the rate of IJ procedural complications to be about 1-2%. Based on Sulek _et al_ RCT comparing right vs left sided CVC placement, I assume the risk is double on the left compared to the right (in their study, performed without ultrasound guidance the risk was 10% and 20% respectively). Based on Oliveros _et al_, I assume that the risk of an  patient admitted to the ICU requiring dialysis is 10%.
+Based on the [Three Sites Trial](https://www.nejm.org/doi/full/10.1056/NEJMoa1500964), I assume the rate of IJ procedural complications to be about 1-2%. Based on [Sulek _et al_](https://pubmed.ncbi.nlm.nih.gov/10818329/) RCT comparing right vs left sided CVC placement, I assume the risk is double on the left compared to the right (in their study, performed without ultrasound guidance the risk was 10% and 20% respectively). Based on [Oliveros _et al_](https://jintensivecare.biomedcentral.com/articles/10.1186/s40560-020-00481-0), I assume that the risk of an  patient admitted to the ICU requiring dialysis is 10%.
 
 
 
