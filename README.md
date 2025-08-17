@@ -2,13 +2,15 @@
 should intensivists routinely place central lines in the right internal jugular or save that site for potential future lines?
 
 ### Clincial context
-Some intensivists and institutions strongly believe that the right internal jugular vein should be preserved in case a patient requires a hemodialysis line in the future. The "Save the RIJ" dogma is based on the premise that it is technically more difficult to place hemodialysis lines in the LIJ (or femoral) vein. Proponents argue that by preserving the RIJ, the "cumulative procedural risk"[1] can be lowered.
+Some intensivists and institutions strongly believe that the right internal jugular vein should be preserved in case a patient requires a hemodialysis line in the future. The "`Save the RIJ`" dogma is based on the premise that it is technically more difficult to place hemodialysis lines in the LIJ (or femoral) vein. Proponents argue that by preserving the RIJ, the "**cumulative procedural risk**"[1] can be lowered.
 
 I disagree.
 
-If this assumption is true, by prioritizing the LIJ, we are exposing **every** patient who needs venous access to a higher rate of complications, in the hope of reducing the rate of complications for the subset who _might_ need one of these lines later.
+If this assumption is true, by prioritizing the LIJ, we are exposing ***every*** patient who needs venous access to a higher rate of complications, in the hope of reducing the rate of complications for the subset who _might_ need one of these lines later.
 
-I built this interactive web calculator to help clinicians decide for themselves based on thier own assumptions about LEFT vs RIGHT IJ complications as well as institutional rates of CRRT which strategy has the lower cumulative risk to the patient.
+This is controversial.
+
+I built this interactive web calculator to help clinicians decide for themselves based on thier own assumptions about LEFT vs RIGHT IJ complications as well as institutional rates of CRRT which strategy has the lower cumulative risk to their patients. By expressing the total risk per 100 patients, hopefully we can make informed decisions that mitigate harm
 
 
 ![](https://github.com/nickmmark/save-the-RIJ/blob/main/save_the_RIJ.png)
