@@ -10,7 +10,9 @@ If this assumption is true, by prioritizing the LIJ, we are exposing ***every***
 
 This is controversial.
 
-I built this interactive web calculator to help clinicians decide for themselves based on thier own assumptions about LEFT vs RIGHT IJ complications as well as institutional rates of CRRT which strategy has the lower cumulative risk to their patients. By expressing the total risk per 100 patients, hopefully we can make informed decisions that mitigate harm
+I built this interactive web calculator to help clinicians decide for themselves based on thier own assumptions about LEFT vs RIGHT IJ complications as well as institutional rates of CRRT which strategy has the lower cumulative risk to their patients. By expressing the total risk per 100 patients, hopefully we can make informed decisions that mitigate harm.
+
+Try out the calculator yourself [here](https://nickmmark.github.io/save-the-RIJ/)
 
 
 ![](https://github.com/nickmmark/save-the-RIJ/blob/main/save_the_RIJ.png)
